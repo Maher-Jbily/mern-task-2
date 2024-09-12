@@ -8,10 +8,10 @@ function App() {
   return (
       <Router>
         <Routes>
-          <Route path="/mern-task-2/" element={<Home />} />
-          <Route path="/mern-task-2/properties" element={<Properties />} />
-          <Route path="/mern-task-2/SingleProperty" element={<SingleProperty />} />
-          <Route path="/mern-task-2/contact" element={<ContactUs />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/properties" element={<Properties />} />
+          <Route path="/SingleProperty" element={<SingleProperty />} />
+          <Route path="/contact" element={<ContactUs />} />
         </Routes>
     </Router>
   )
