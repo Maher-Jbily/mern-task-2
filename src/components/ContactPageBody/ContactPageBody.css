@@ -1,0 +1,44 @@
+*{
+    font-family: sans-serif;
+}
+.SmallCardContact-p1{
+    color:#f35525 ;
+    padding: 3px 15px;
+    border-left: 4px solid #f35525;
+    margin-bottom: 35px;
+    font-weight: 700;
+}
+.SmallCardContact-p2{
+    width: 80%;
+    margin-bottom: 95px;
+    line-height: 20px;
+}
+ .SmallCardContact-div1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+ }
+ .SmallCardContact-div1-div1{
+    width: 60%;
+ }
+.SmallCardContact-h2{
+    font-size: 40px;
+    width: 300px;
+    margin-bottom: 50px;
+
+}
+.SmallCardContact-h2-container{
+    padding: 0 5%;
+    margin: 75px 0;
+
+}
+.sm-ca-co{
+    font-size: 20px;
+    border-radius: 15px;
+}
+@media(max-width:700px){
+    .SmallCardContact-p2{
+        width: 370px;
+    }
+}

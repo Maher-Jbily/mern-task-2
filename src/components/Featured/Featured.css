@@ -1,0 +1,123 @@
+.feat-container{
+    padding: 150px 10% 80px 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fut-img2{
+    position: absolute;
+    width: 60px;
+    background-color: #f35525;
+    padding: 30px;
+    bottom: 5%;
+    left: 6%;
+    border-radius: 50%;
+}
+.ma-d-center{
+    padding: 0 5%;
+}
+.fea-p1{
+    color: #f35525;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding-left: 5px;
+    border-left: 4px solid #f35525;
+}
+.fea-h3{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 700;
+    width: 265px;
+    margin-top: 40px;
+    line-height: 60px;
+}
+.small-ma-center{
+    background-color: #f2f0f0;
+    width: 380px;
+    padding: 20px;
+}
+.small-ma-center p{
+    font-family: sans-serif;
+    font-weight: 600;
+}
+#m1{
+    color: #3293fd;
+}
+.s-c-p1{
+    margin-bottom: 15px;
+    color: #f35525;
+}
+.s-c-p2{
+    margin: 15px 0 22px;
+    line-height: 25px;
+    font-weight: 500;
+}
+.s-c-p3{
+    margin-bottom: 15px;
+}
+.s-c-p4{
+    margin-top: 15px;
+}
+.small-ma-center hr{
+    width: 105%;
+    color: rgb(185, 183, 183);
+}
+.ma-d-right{
+    padding: 50px;
+    box-shadow:1px 1px 20px 6px #0000002b;
+    
+}
+.right-c-d{
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    margin-bottom: 53px;
+}
+.right-c-d p{
+    color: gray;
+}
+.r-s-t{
+    margin-left: 35px;
+}
+.sssmm{
+    margin-bottom: 0;
+}
+.ma-d-img{
+    position: relative;
+}
+@media(max-width:1460px){
+    .fut-img2{}
+}
+@media(max-width:1350px){
+    .ma-d-img{
+        margin-bottom: 80px;
+    }
+    .ma-d-center{
+        margin-bottom: 80px;
+    }
+    .small-ma-center{
+        margin-bottom: 60px;
+    }
+}
+@media(max-width:700px){
+    .ma-d-img{
+        margin-bottom: 60px;
+        width: 300px;
+    }
+    .ma-d-center{
+        margin-bottom: 50px;
+        width: 300px;
+    }
+    .small-ma-center {
+        margin-bottom: 50px;
+        width: 250px;
+    }
+    .first-hero-img{
+        width: 300px;
+    }
+    .fut-img2{
+        width: 40px;
+        padding: 30px;
+        bottom: 18%;
+        left: 1%;
+    }
+}

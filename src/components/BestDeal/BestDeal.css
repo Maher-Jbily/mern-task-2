@@ -1,0 +1,121 @@
+.best-cont{
+    background-color: rgb(238, 233, 233);
+    font-family: sans-serif;
+}
+.b-d-1{
+    display: flex;
+    padding: 50px 8%;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.b-d1-d{
+    min-width: 545px;
+}
+.b-d1-d-left p{
+    color:#f35525 ;
+    padding: 3px 8px;
+    border-left: 4px solid #f35525;
+    font-weight: 600;
+    margin-bottom: 40px;
+
+}
+.b-d1-d-left h2{
+    width: 400px;
+    font-size: 50px;
+}
+.b-d1-d button{
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 7px;
+    color: white;
+    background-color: black;
+    border-color: transparent;
+    margin-right: 30px;
+}
+.b-d1-d button:hover{
+    background-color: #f35525;
+}
+.left-b-d{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:0px 0px 20px 6px #ababab;
+    padding: 40px;
+    margin-bottom: 30px;
+    height: max-content;
+}
+.b-d-2{
+    display: flex;
+    margin: 0 8%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.iii{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 45px;
+    width: 250px;
+}
+.pbest{
+    color: #ababab;
+}
+.pbest2{
+    font-size: 17px;
+    font-weight: 800;
+    margin-left: 30px;
+}
+.ioio{
+    margin-bottom: 0;
+}
+.only-img{
+    margin-left: 5%;
+    height: 380px;
+    width: 350px;
+    margin-bottom: 30px;
+}
+.best-right-div{
+    width: 300PX;
+    min-width: 300px;
+    margin-left: 5%;
+    margin-bottom: 30px;
+}
+.right-best-h3{
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.right-best-p{
+    color: grey;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+.lplp{
+    margin-bottom: 0;
+}
+@media(max-width:1150px){
+    .b-d-1{
+        justify-content: center;
+        text-align: center;
+    }
+    .b-d1-d-left{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .b-d1-d-left p{
+        width: max-content;
+    }
+    .b-d1-d-left h2{
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:1150px){
+    .b-d1-d button {
+        padding: 10px 13px;
+        margin-right: 10px;
+    }
+    .b-d1-d {
+        min-width: 420px;
+    }
+}

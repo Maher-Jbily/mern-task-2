@@ -1,0 +1,15 @@
+.SmallCardContainer{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.div-footer{
+    margin-top: 40%;
+}
+@media(max-width:1155px) {
+    .div-footer{
+        margin-top: 1250px;
+    }
+}

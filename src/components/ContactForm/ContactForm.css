@@ -1,0 +1,44 @@
+.com-form{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    min-width: 350px;
+    padding: 20px 15px;
+    box-shadow:-1px 1px 20px 8px #e0e0e07b;
+    border-radius: 15px;
+    background-color: white;
+    height: max-content;
+}
+.form-span{
+    display: flex;
+    flex-direction: column;
+}
+.form-span label{
+    font-weight: 500;
+    margin-bottom: 9px;
+}
+.form-span input{
+    background-color: rgb(236, 236, 236);
+    padding: 8px 8px;
+    margin-bottom: 34px;
+    border-color: transparent;
+    border-radius: 20px;
+}
+.form-span textarea{
+    background-color: rgb(236, 236, 236);
+    border-color: transparent;
+    border-radius: 20px;
+    padding: 8px 8px;
+    min-height: 150px;
+    margin-bottom: 30px;
+}
+.form-but{
+    width: 130px;
+    padding: 5px 10px;
+    background-color: black;
+    border-color: transparent;
+    border-radius: 20px;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+}

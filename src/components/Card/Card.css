@@ -1,0 +1,67 @@
+.v-card{
+    width: 380px;
+    padding: 18px;
+    background-color: rgb(237 234 234 / 55%);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.card-v-img{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.card-villa-s-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.card-villa-s-2{
+    display: flex;
+    justify-content: start;
+}
+.v-type{
+    background-color: #f79a7e;
+    padding: 8px 12px;
+    border-radius: 5px;
+
+}
+.v-price{
+    color: #f35525;
+    font-weight: 700;
+    font-size: 20px;
+}
+.v-h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.zzz{
+    margin:0 35px 20px 0;
+    text-align: start;
+}
+#maher{
+    margin: 15px 0;
+    color: gray;
+}
+.l-card-but{
+    background-color: black;
+    padding:10px 20px ;
+    border-color: transparent;
+    color: white;
+    width: 150px;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+.zzz1{
+    text-align: start;
+    margin-bottom: 20px;
+}
+.spanoo{
+    width: 100%;
+    text-align: start;
+    margin: 15px 0;
+}
