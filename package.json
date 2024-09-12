@@ -1,7 +1,7 @@
 {
   "name": "mern-task-2",
   "version": "1.0.0",
-  "homepage": "https://maher-jbily.github.io/mern-task-2",
+  "homepage": "https://maher-jbily.github.io/mern-task-2/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
