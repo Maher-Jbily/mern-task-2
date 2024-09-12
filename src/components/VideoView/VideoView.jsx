@@ -7,7 +7,7 @@ export default function VideoView() {
             <p className="v-p">Video View</p>
             <h2 className="v-h2">Get Closer View & Diffrent Feeling</h2>
             </div>
-            <video className="video" poster="./images/video-frame.jpg">
+            <video className="video" poster="/images/video-frame.jpg">
             </video>
         </div>
         <div className="small-card">

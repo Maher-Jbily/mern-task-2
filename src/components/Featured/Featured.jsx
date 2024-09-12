@@ -4,8 +4,8 @@ export default function Featured() {
   return (
     <div className="feat-container">
         <div className="ma-d-img">
-            <img src="./images/featured.jpg" alt="" className="first-hero-img"/>
-            <img className="fut-img2" src="./images/featured-icon.png" alt="" />
+            <img src="/images/featured.jpg" alt="" className="first-hero-img"/>
+            <img className="fut-img2" src="/images/featured-icon.png" alt="" />
         </div>
         <div className="ma-d-center">
             <p className="fea-p1">FEATURED</p>
@@ -21,14 +21,14 @@ export default function Featured() {
         </div>
         <div className="ma-d-right">
             <div className="right-c-d">
-                <img src="./images/info-icon-01.png" alt="" />
+                <img src="/images/info-icon-01.png" alt="" />
                 <span className="r-s-t">
                     <h3>250 m2</h3>
                     <p>Total Flat Space</p>
                 </span>
             </div>
             <div className="right-c-d">
-                <img src="./images/info-icon-02.png" alt="" />
+                <img src="/images/info-icon-02.png" alt="" />
                 <span className="r-s-t">
                     <h3>Contract</h3>
                     <p>Contract Ready</p>
@@ -36,7 +36,7 @@ export default function Featured() {
             </div>
             <div className="right-c-d">
                 <span>
-                <img src="./images/info-icon-03.png" alt="" />
+                <img src="/images/info-icon-03.png" alt="" />
                 <p>Process</p>
                 </span>
                 <span className="r-s-t">
@@ -46,7 +46,7 @@ export default function Featured() {
             </div>
             <div className="right-c-d sssmm">
                 <span>
-                <img src="./images/info-icon-04.png" alt="" />
+                <img src="/images/info-icon-04.png" alt="" />
                 <p>Control</p>
                 </span>
                 <span className="r-s-t">

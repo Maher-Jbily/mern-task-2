@@ -1,5 +1,5 @@
 .ConstHero-container{
-    background-image: url('./images/img.jpg');
+    background-image: url('/images/img.jpg');
     display: flex;
     flex-direction: column;
     width:100% ;

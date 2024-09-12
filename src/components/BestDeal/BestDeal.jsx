@@ -6,7 +6,7 @@ export default function BestDeal() {
 
   const dealData = {
     Appartment: {
-      img: "./images/property-05.jpg",
+      img: "/images/property-05.jpg",
       description: "When you need free CSS templates, you can simple type TemlpateMo in any search engine website.in addition, you can type templateMo Protofolio, TemplateMoOne Page Layouts,etc.",
       space: "185 m2",
       floor: "26th",
@@ -15,7 +15,7 @@ export default function BestDeal() {
       payment: "Bank",
     },
     VillaHouse: {
-      img: "./images/property-06.jpg",
+      img: "/images/property-06.jpg",
       description: "Swag fanny pack iyft blog twee. JOMO ethical copper mug, succulents typewriter shaman DIY kisch twee taiyaki fixie hella venmo after messenger poutine next level humblebrag swag franzen",
       space: "250 m2",
       floor: "26th",
@@ -24,7 +24,7 @@ export default function BestDeal() {
       payment: "Bank",
     },
     Penthose: {
-      img: "./images/property-03.jpg",
+      img: "/images/property-03.jpg",
       description: "Swag fanny pack iyft blog twee. JOMO ethical copper mug, succulents typewriter shaman DIY kisch twee taiyaki fixie hella venmo after messenger poutine next level humblebrag swag franzen",
       space: "320 m2",
       floor: "34th",

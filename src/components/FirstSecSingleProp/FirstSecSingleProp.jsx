@@ -4,7 +4,7 @@ export default function FirstSecSingleProp() {
   return (
     <div className='SingleProerty-first-section'>
       <div className="single-left">
-        <img src="./images/property-01.jpg" alt="photo" className='single-left-img'/>
+        <img src="/images/property-01.jpg" alt="photo" className='single-left-img'/>
         <p className='single-left-p1 single-left-p'>Apparment</p>
         <p className='single-left-p2 single-left-p'>24 New Street Miami, OR 24560</p>
         <hr id='single-hr' />
@@ -21,14 +21,14 @@ export default function FirstSecSingleProp() {
       </div>
       <div className="ma-d-right1">
             <div className="right-c-d1">
-                <img src="./images/info-icon-01.png" alt="" />
+                <img src="/images/info-icon-01.png" alt="" />
                 <span className="r-s-t1">
                     <h3>250 m2</h3>
                     <p>Total Flat Space</p>
                 </span>
             </div>
             <div className="right-c-d1">
-                <img src="./images/info-icon-02.png" alt="" />
+                <img src="/images/info-icon-02.png" alt="" />
                 <span className="r-s-t1">
                     <h3>Contract</h3>
                     <p>Contract Ready</p>
@@ -36,7 +36,7 @@ export default function FirstSecSingleProp() {
             </div>
             <div className="right-c-d1">
                 <span>
-                <img src="./images/info-icon-03.png" alt="" />
+                <img src="/images/info-icon-03.png" alt="" />
                 <p>Process</p>
                 </span>
                 <span className="r-s-t1">
@@ -46,7 +46,7 @@ export default function FirstSecSingleProp() {
             </div>
             <div className="right-c-d1 sssmm1">
                 <span>
-                <img src="./images/info-icon-04.png" alt="" />
+                <img src="/images/info-icon-04.png" alt="" />
                 <p>Control</p>
                 </span>
                 <span className="r-s-t1">

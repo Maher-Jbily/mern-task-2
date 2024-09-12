@@ -1,13 +1,13 @@
 .hero-slider-0 {
-    background-image: url('./images/banner-01.jpg');
+    background-image: url('/images/banner-01.jpg');
   }
   
   .hero-slider-1 {
-    background-image: url('./images/banner-02.jpg');
+    background-image: url('/images/banner-02.jpg');
   }
   
   .hero-slider-2 {
-    background-image: url('./images/banner-03.jpg');
+    background-image: url('/images/banner-03.jpg');
   }
 .slider-image {
     width: 100%;
