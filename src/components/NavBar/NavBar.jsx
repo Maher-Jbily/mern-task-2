@@ -33,10 +33,10 @@ export default function NavBar() {
             <h1 className='nav-h1'>VILLA</h1>
             <span className='d-2-s1'>
                 <ul className='nav-list'>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/properties">Properties</Link></li>
-                    <li><Link to="/singleProperty">Property Details</Link></li>
-                    <li><Link to="/contact">Contact Us</Link></li>
+                    <li><Link to="/mern-task-2/">Home</Link></li>
+                    <li><Link to="/mern-task-2/properties">Properties</Link></li>
+                    <li><Link to="/mern-task-2/singleProperty">Property Details</Link></li>
+                    <li><Link to="/mern-task-2/contact">Contact Us</Link></li>
                 </ul>
                 <button className='last-n-button'><FontAwesomeIcon icon={faCalendar } className='iconNavButton' />Schedule a visit</button>
             </span>
