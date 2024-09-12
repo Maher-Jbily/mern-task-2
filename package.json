@@ -1,13 +1,14 @@
 {
-  "name": "task--2",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "mern-task-2",
+  "version": "1.0.0",
+  "homepage": "https://maher-jbily.github.io/mern-task-2",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
@@ -32,3 +33,4 @@
     "vite": "^5.4.1"
   }
 }
+
